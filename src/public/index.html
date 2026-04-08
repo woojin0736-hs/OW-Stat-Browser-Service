@@ -874,6 +874,13 @@
       display: none !important;
     }
 
+    /* 메인 화면: 통계표 하단 개발/안내 블록(하위 역할군, API 안내, 데이터 요약) 숨김 */
+    body[data-app-view='main'] #subrole-legend,
+    body[data-app-view='main'] #info-panel,
+    body[data-app-view='main'] #section-overview {
+      display: none !important;
+    }
+
     .map-page-lead {
       font-size: 0.88rem;
       color: var(--text-muted);
@@ -1624,6 +1631,25 @@
       overflow: hidden;
       border: 1px solid var(--table-wrap-border);
       background: var(--table-wrap-bg);
+    }
+
+    /* 모바일: 넓은 표는 잘리지 않도록 가로 스크롤(터치 스와이프) */
+    @media (max-width: 768px) {
+      .table-wrap {
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .table-wrap table {
+        min-width: 520px;
+      }
+
+      th,
+      td {
+        padding: 6px 8px;
+        font-size: 0.76rem;
+      }
     }
 
     table {
