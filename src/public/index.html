@@ -1457,12 +1457,42 @@
     }
 
     @media (max-width: 640px) {
-      .chip-top-row > .segment-group {
-        flex: 1 1 100%;
-        min-width: 100%;
+      /* 한 줄(서버/모드, 역할/정렬)은 박스 단위로 세로 쌓기 */
+      .chip-top-row,
+      .chip-bottom-row {
+        flex-direction: column;
+        gap: 10px;
       }
 
+      .chip-top-row > .segment-group,
       .chip-bottom-row > .segment-group {
+        flex: 1 1 auto;
+        min-width: 100%;
+        width: 100%;
+      }
+
+      /* 박스 안 칩: 줄바꿈 + 최소 너비로 글자 겹침 완화 */
+      #filter-chips .segment-group {
+        flex-wrap: wrap;
+        row-gap: 6px;
+        column-gap: 4px;
+        align-content: flex-start;
+      }
+
+      #filter-chips .segment-group--wide {
+        flex-wrap: wrap;
+        overflow-x: visible;
+      }
+
+      #filter-chips .segment-group .chip {
+        flex: 1 1 auto;
+        min-width: min(100%, 6.25rem);
+        white-space: normal;
+        line-height: 1.25;
+      }
+
+      /* 매우 긴 라벨 티어 칩은 한 줄 전체 사용 */
+      #filter-chips .segment-group .chip[data-group='tier'][data-value='Grandmaster'] {
         flex: 1 1 100%;
         min-width: 100%;
       }
