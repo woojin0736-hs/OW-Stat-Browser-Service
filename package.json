@@ -1,0 +1,19 @@
+{
+  "name": "ow2-stats-service",
+  "version": "1.0.0",
+  "description": "Overwatch 2 hero stats collector and API server using Blizzard official stats API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "collect-once": "node src/manualCollect.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.4",
+    "node-cron": "^4.2.1"
+  }
+}

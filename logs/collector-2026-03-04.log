@@ -1,0 +1,112 @@
+{"ts":"2026-03-04T08:36:55.761Z","level":"INFO","scope":"manual-collect","message":"Manual collection started"}
+{"ts":"2026-03-04T08:36:55.766Z","level":"INFO","scope":"manual-collect","message":"Collection started","meta":{"startTime":"2026-03-04T08:36:55.766Z","targetCount":9}}
+{"ts":"2026-03-04T08:36:55.770Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"quickplay__tier-All","params":{"mode":"quickplay","rq":0,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:56.271Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"quickplay__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:36:56.273Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-All","params":{"mode":"competitive","rq":2,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:56.447Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:36:56.451Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Bronze","params":{"mode":"competitive","rq":2,"tier":"Bronze","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:56.825Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Bronze","recordCount":50}}
+{"ts":"2026-03-04T08:36:56.827Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Silver","params":{"mode":"competitive","rq":2,"tier":"Silver","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:57.228Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Silver","recordCount":50}}
+{"ts":"2026-03-04T08:36:57.230Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Gold","params":{"mode":"competitive","rq":2,"tier":"Gold","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:57.581Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Gold","recordCount":50}}
+{"ts":"2026-03-04T08:36:57.583Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Platinum","params":{"mode":"competitive","rq":2,"tier":"Platinum","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:57.743Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Platinum","recordCount":50}}
+{"ts":"2026-03-04T08:36:57.744Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Diamond","params":{"mode":"competitive","rq":2,"tier":"Diamond","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:57.830Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Diamond","recordCount":50}}
+{"ts":"2026-03-04T08:36:57.831Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Master","params":{"mode":"competitive","rq":2,"tier":"Master","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:58.179Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Master","recordCount":50}}
+{"ts":"2026-03-04T08:36:58.180Z","level":"INFO","scope":"manual-collect","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Grandmaster","params":{"mode":"competitive","rq":2,"tier":"Grandmaster","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:36:58.499Z","level":"INFO","scope":"manual-collect","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Grandmaster","recordCount":50}}
+{"ts":"2026-03-04T08:36:58.504Z","level":"INFO","scope":"manual-collect","message":"Collection finished","meta":{"startTime":"2026-03-04T08:36:55.766Z","endTime":"2026-03-04T08:36:58.504Z","updatedCount":9,"errorCount":0,"manifestUpdatedAt":"2026-03-04T08:36:58.503Z"}}
+{"ts":"2026-03-04T08:36:58.505Z","level":"INFO","scope":"manual-collect","message":"Manual collection finished","meta":{"updatedCount":9,"errorCount":0}}
+{"ts":"2026-03-04T08:37:05.029Z","level":"INFO","scope":"main","message":"Initial collection on startup started"}
+{"ts":"2026-03-04T08:37:05.038Z","level":"INFO","scope":"main","message":"Collection started","meta":{"startTime":"2026-03-04T08:37:05.037Z","targetCount":9}}
+{"ts":"2026-03-04T08:37:05.039Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"quickplay__tier-All","params":{"mode":"quickplay","rq":0,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:05.679Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"quickplay__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:37:05.681Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-All","params":{"mode":"competitive","rq":2,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:05.820Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:37:05.821Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Bronze","params":{"mode":"competitive","rq":2,"tier":"Bronze","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:05.976Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Bronze","recordCount":50}}
+{"ts":"2026-03-04T08:37:05.977Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Silver","params":{"mode":"competitive","rq":2,"tier":"Silver","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:06.194Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Silver","recordCount":50}}
+{"ts":"2026-03-04T08:37:06.195Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Gold","params":{"mode":"competitive","rq":2,"tier":"Gold","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:06.299Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Gold","recordCount":50}}
+{"ts":"2026-03-04T08:37:06.300Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Platinum","params":{"mode":"competitive","rq":2,"tier":"Platinum","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:06.385Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Platinum","recordCount":50}}
+{"ts":"2026-03-04T08:37:06.386Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Diamond","params":{"mode":"competitive","rq":2,"tier":"Diamond","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:06.474Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Diamond","recordCount":50}}
+{"ts":"2026-03-04T08:37:06.475Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Master","params":{"mode":"competitive","rq":2,"tier":"Master","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:06.549Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Master","recordCount":50}}
+{"ts":"2026-03-04T08:37:06.551Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Grandmaster","params":{"mode":"competitive","rq":2,"tier":"Grandmaster","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:37:06.659Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Grandmaster","recordCount":50}}
+{"ts":"2026-03-04T08:37:06.666Z","level":"INFO","scope":"main","message":"Collection finished","meta":{"startTime":"2026-03-04T08:37:05.037Z","endTime":"2026-03-04T08:37:06.665Z","updatedCount":9,"errorCount":0,"manifestUpdatedAt":"2026-03-04T08:37:06.664Z"}}
+{"ts":"2026-03-04T08:37:06.667Z","level":"INFO","scope":"main","message":"Initial collection on startup finished"}
+{"ts":"2026-03-04T08:37:06.676Z","level":"INFO","scope":"main","message":"Cache initialized","meta":{"datasetCount":9}}
+{"ts":"2026-03-04T08:37:06.810Z","level":"INFO","scope":"main","message":"Express server listening on port 3000"}
+{"ts":"2026-03-04T08:40:00.022Z","level":"INFO","scope":"main","message":"Scheduled collection started"}
+{"ts":"2026-03-04T08:40:00.023Z","level":"INFO","scope":"main","message":"Collection started","meta":{"startTime":"2026-03-04T08:40:00.023Z","targetCount":9}}
+{"ts":"2026-03-04T08:40:00.024Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"quickplay__tier-All","params":{"mode":"quickplay","rq":0,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:00.452Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"quickplay__tier-All","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.453Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"quickplay__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:40:00.453Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"quickplay__tier-All","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.454Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-All","params":{"mode":"competitive","rq":2,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:00.563Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-All","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.563Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-All","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.564Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:40:00.565Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Bronze","params":{"mode":"competitive","rq":2,"tier":"Bronze","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:00.806Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Bronze","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.807Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Bronze","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.807Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Bronze","recordCount":50}}
+{"ts":"2026-03-04T08:40:00.809Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Silver","params":{"mode":"competitive","rq":2,"tier":"Silver","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:00.882Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Silver","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.883Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Silver","recordCount":50}}
+{"ts":"2026-03-04T08:40:00.884Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Silver","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.884Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Silver","eventType":"change"}}
+{"ts":"2026-03-04T08:40:00.886Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Gold","params":{"mode":"competitive","rq":2,"tier":"Gold","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:01.072Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Gold","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.073Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Gold","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.074Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Gold","recordCount":50}}
+{"ts":"2026-03-04T08:40:01.075Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Platinum","params":{"mode":"competitive","rq":2,"tier":"Platinum","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:01.140Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Platinum","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.140Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Platinum","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.141Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Platinum","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.174Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Platinum","recordCount":50}}
+{"ts":"2026-03-04T08:40:01.175Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Diamond","params":{"mode":"competitive","rq":2,"tier":"Diamond","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:01.515Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Diamond","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.516Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Diamond","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.517Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Diamond","recordCount":50}}
+{"ts":"2026-03-04T08:40:01.518Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Master","params":{"mode":"competitive","rq":2,"tier":"Master","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:01.596Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Master","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.597Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Master","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.597Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Master","recordCount":50}}
+{"ts":"2026-03-04T08:40:01.599Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Grandmaster","params":{"mode":"competitive","rq":2,"tier":"Grandmaster","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:40:01.708Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Grandmaster","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.709Z","level":"INFO","scope":"main","message":"Dataset reloaded into cache","meta":{"datasetId":"competitive__tier-Grandmaster","eventType":"change"}}
+{"ts":"2026-03-04T08:40:01.709Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Grandmaster","recordCount":50}}
+{"ts":"2026-03-04T08:40:01.715Z","level":"INFO","scope":"main","message":"Collection finished","meta":{"startTime":"2026-03-04T08:40:00.023Z","endTime":"2026-03-04T08:40:01.714Z","updatedCount":9,"errorCount":0,"manifestUpdatedAt":"2026-03-04T08:40:01.713Z"}}
+{"ts":"2026-03-04T08:40:01.716Z","level":"INFO","scope":"main","message":"Scheduled collection finished"}
+{"ts":"2026-03-04T08:43:48.545Z","level":"INFO","scope":"main","message":"Initial collection on startup started"}
+{"ts":"2026-03-04T08:43:48.555Z","level":"INFO","scope":"main","message":"Collection started","meta":{"startTime":"2026-03-04T08:43:48.554Z","targetCount":9}}
+{"ts":"2026-03-04T08:43:48.556Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"quickplay__tier-All","params":{"mode":"quickplay","rq":0,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.147Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"quickplay__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.148Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-All","params":{"mode":"competitive","rq":2,"tier":"All","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.381Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-All","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.383Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Bronze","params":{"mode":"competitive","rq":2,"tier":"Bronze","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.459Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Bronze","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.461Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Silver","params":{"mode":"competitive","rq":2,"tier":"Silver","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.648Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Silver","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.649Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Gold","params":{"mode":"competitive","rq":2,"tier":"Gold","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.718Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Gold","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.719Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Platinum","params":{"mode":"competitive","rq":2,"tier":"Platinum","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.870Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Platinum","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.872Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Diamond","params":{"mode":"competitive","rq":2,"tier":"Diamond","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:49.965Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Diamond","recordCount":50}}
+{"ts":"2026-03-04T08:43:49.967Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Master","params":{"mode":"competitive","rq":2,"tier":"Master","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:50.175Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Master","recordCount":50}}
+{"ts":"2026-03-04T08:43:50.177Z","level":"INFO","scope":"main","message":"Collecting dataset","meta":{"datasetId":"competitive__tier-Grandmaster","params":{"mode":"competitive","rq":2,"tier":"Grandmaster","input":"PC","map":"all-maps","region":"Asia","role":"All"}}}
+{"ts":"2026-03-04T08:43:50.257Z","level":"INFO","scope":"main","message":"Dataset collected and saved","meta":{"datasetId":"competitive__tier-Grandmaster","recordCount":50}}
+{"ts":"2026-03-04T08:43:50.263Z","level":"INFO","scope":"main","message":"Collection finished","meta":{"startTime":"2026-03-04T08:43:48.554Z","endTime":"2026-03-04T08:43:50.262Z","updatedCount":9,"errorCount":0,"manifestUpdatedAt":"2026-03-04T08:43:50.261Z"}}
+{"ts":"2026-03-04T08:43:50.264Z","level":"INFO","scope":"main","message":"Initial collection on startup finished"}
+{"ts":"2026-03-04T08:43:50.273Z","level":"INFO","scope":"main","message":"Cache initialized","meta":{"datasetCount":9}}
+{"ts":"2026-03-04T08:43:50.335Z","level":"INFO","scope":"main","message":"Express server listening on port 3000"}
