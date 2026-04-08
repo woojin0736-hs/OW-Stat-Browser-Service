@@ -844,6 +844,32 @@
       }
     }
 
+    /* 영웅별 통계 상세: 모바일에서 막대 그래프 가로 스와이프 */
+    @media (max-width: 768px) {
+      #section-hero-explore .hero-chart-scroll {
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+      }
+
+      #section-hero-explore .hero-chart-scroll .hero-vchart {
+        display: grid;
+        grid-template-columns: none;
+        grid-auto-flow: column;
+        grid-auto-columns: 48px;
+        width: max-content;
+        min-width: min(100%, 520px);
+        overflow-x: visible;
+      }
+
+      #section-hero-explore .hero-chart-scroll .hero-vcol {
+        width: 48px;
+        min-width: 48px;
+      }
+    }
+
     .hero-explore-loading {
       font-size: 0.85rem;
       color: var(--text-muted);
@@ -1292,13 +1318,20 @@
 
     .btn-primary {
       background: linear-gradient(135deg, var(--accent), var(--accent-strong));
-      color: #111827;
+      color: #f9fafb;
       box-shadow: 0 12px 30px rgba(248, 113, 22, 0.45);
     }
 
     .btn-primary:hover {
+      color: #f9fafb;
       transform: translateY(-1px);
       box-shadow: 0 14px 38px rgba(248, 113, 22, 0.55);
+    }
+
+    .btn-primary:focus-visible {
+      color: #f9fafb;
+      outline: 2px solid rgba(249, 250, 251, 0.85);
+      outline-offset: 2px;
     }
 
     .btn-ghost {
@@ -2001,11 +2034,15 @@
               <div id="hero-explore-charts" class="hero-explore-charts">
                 <div class="hero-chart-block">
                   <div class="hero-chart-title">픽률 (%)</div>
-                  <div id="hero-chart-pick" class="hero-vchart" aria-label="모드·등급별 픽률"></div>
+                  <div class="hero-chart-scroll">
+                    <div id="hero-chart-pick" class="hero-vchart" aria-label="모드·등급별 픽률"></div>
+                  </div>
                 </div>
                 <div class="hero-chart-block">
                   <div class="hero-chart-title">승률 (%)</div>
-                  <div id="hero-chart-win" class="hero-vchart" aria-label="모드·등급별 승률"></div>
+                  <div class="hero-chart-scroll">
+                    <div id="hero-chart-win" class="hero-vchart" aria-label="모드·등급별 승률"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -2168,7 +2205,7 @@
           <div class="button-row">
             <button class="btn-ghost" id="reset-btn">초기화</button>
             <button class="btn-primary" id="load-btn">
-              <span>통계 불러오기</span>
+              <span>검색</span>
             </button>
           </div>
 
@@ -2600,7 +2637,7 @@
             renderMapDetailChips(value, maps);
           }
 
-          // 선택만 바꾸고, 실제 데이터 로딩은 "통계 불러오기" 버튼으로
+          // 선택만 바꾸고, 실제 데이터 로딩은 "검색" 버튼으로
         });
       });
     }
@@ -3710,7 +3747,7 @@
       }
 
       loadBtn.disabled = true;
-      loadBtn.textContent = '불러오는 중...';
+      loadBtn.textContent = '검색 중...';
       statusText.textContent = 'Blizzard 통계 API에서 데이터 수집 중...';
 
       try {
@@ -3824,7 +3861,7 @@
         statsBody.appendChild(tr);
       } finally {
         loadBtn.disabled = false;
-        loadBtn.textContent = '통계 불러오기';
+        loadBtn.textContent = '검색';
       }
     }
 
